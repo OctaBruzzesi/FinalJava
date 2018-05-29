@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 05-mar-2018, 11:14:01
+    Author     : mica_
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.botonNuevaConsulta {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    float: right;
+    text-align: center;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2;
+	font-size: 1em;
+	line-height: 1.1em;
+	padding-top: 130px;
+        width: 100%;
+        float: left;
+}
+
+caption{
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+
+
+table, td{
+	font:100% Arial, Helvetica, sans-serif;
+
+}
+table{
+    width: 50%;
+    border-collapse:collapse;
+    margin:1em 10;
+    text-align:center;
+}
+th, td{
+        text-align:center;
+        padding:.4em;
+        border:1px solid #fff;
+    }
+th{background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td{background:#e5f1f4;}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button.botonNuevaConsulta:hover {
+    opacity: 0.8;
+}
+
+.contenedor{
+    float: left;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    float: left;
+}
+
+ul.titulo {
+    width: 50%;
+    box-shadow: 0 1px 18px 0;
+    margin: 15px 330px;
+    padding: 7px;
+    right: 0;
+}
+
+.container {
+    float: left;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    /*padding: 1px 0px 1px 10px;*/
+}
+
+b {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.cajacuerpo{
+
+    background: #E5E8E8;
+
+    margin: 0 0 0px;
+
+    overflow: hidden;
+
+    padding: 20px;
+
+    padding-bottom: 0;
+}
+
+.cuerpo {
+    font-size: 15px;
+
+    font-weight: 400;
+}
+
+.etiqueta {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.autor {
+    position: absolute;
+    right: 60px;
+}
+
+.res {
+    font-size: 15px;
+    margin-top: 15px;
+    display: block;
+}
+
+.titulo {
+    float: left;
+}
+
+.botonResponder {
+    display: block;
+    margin-top: 30px;
+    margin-right: 75%;
+}
+
+textarea {
+    display: block;
+    margin-top: 30px;
+}
+
+.boton-volver {
+    float: left;
+    width: 100%;
+}
+
+.respuesta{
+    float: left;
+    width: 100%;
+}

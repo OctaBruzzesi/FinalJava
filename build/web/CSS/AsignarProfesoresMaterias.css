@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-abr-2018, 23:54:33
+    Author     : Augusto
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.1em;	
+	padding-top: 90px;
+}
+
+button {
+        position: fixed;
+            transition: .5s ease;
+            top: 50%;
+            left: 40%;
+            font-family: "Roboto", sans-serif;  
+            background: #4CAF50;
+            width: 20%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            margin-top: 9%;
+}
+
+
+#cabecera {
+	background: #76b852;
+	color: white;
+	height: 80px;
+        width: 100%;
+	left: 0;
+	top: 0; 
+	position: fixed;
+        z-index: 99999;
+}
+
+#cabecera a {
+    color: white;
+}
+
+#descripciones {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+
+table, td{
+	font:100% Arial, Helvetica, sans-serif;
+
+}
+table.asignarProfesoresMaterias{
+    width: 80%;
+    border-collapse:collapse;   
+    text-align:center;
+    margin: 10px auto;
+}
+th, td{
+        text-align:center;
+        padding:.4em;
+        border:1px solid #fff;
+    }
+th{background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td{background:#e5f1f4;}
+
+caption{
+    font-size: 1.6em;
+    line-height: 1.4em; 
+}
+

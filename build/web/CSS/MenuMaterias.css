@@ -1,0 +1,57 @@
+	
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.1em;	
+	padding-top: 130px;
+}
+
+caption{
+    font-size: 1.6em;
+    line-height: 1.4em; 
+}
+
+                                
+table, td{
+	font:100% Arial, Helvetica, sans-serif;
+
+}
+table.materias{
+    width: 50%;
+    border-collapse:collapse;
+    margin:1em 10;
+    text-align:center;
+}
+th, td{
+        text-align:center;
+        padding:.4em;
+        border:1px solid #fff;
+    }
+th{background:#328aa4 url(tr_back.gif) repeat-x;color:#fff;}
+td{background:#e5f1f4;}
+
+.rol:first-letter{
+    text-transform: uppercase;
+}
+
+.guardar {
+    position: absolute !important;
+    left: 44%;
+    margin: 10px;
+}
+
+.nueva-mate{
+    position: absolute !important;
+    top: 90px;
+    right: 0;
+}
+
+.formulario{
+    padding-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
