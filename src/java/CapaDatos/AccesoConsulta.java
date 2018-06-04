@@ -39,7 +39,6 @@ public class AccesoConsulta extends Conexion {
 
     public void agregarConsulta(String titulo, String cuerpo, String etiquetas, int codMateria, int legAlumno) throws ExcepcionBaseDeDatos{
         try {
-
             stmt.executeUpdate("INSERT INTO consulta (estado, titulo, cuerpo, etiquetas, respuesta, codMateria, legajoAlumno, legajoProfesor, fecha) VALUES(" + "'abierto'," + "'" + titulo + "'," + "'" + cuerpo + "'," + "'" + etiquetas + "', ''," + codMateria + "," + legAlumno + ",null, CURDATE())");
         }
         catch(SQLException e) {

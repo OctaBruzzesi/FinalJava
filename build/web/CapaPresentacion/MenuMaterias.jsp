@@ -57,7 +57,7 @@
 
             %>
                 <tr>
-                <td><a href="MenuConsultas.jsp?n=<%=codMateria%>"> <%=nombre%></a></td>
+                    <td><a href="MenuConsultas.jsp?n=<%=codMateria%>"> <%=nombre%></a></td>
                     <td><%=año%></td>
                 </tr>
             <%
